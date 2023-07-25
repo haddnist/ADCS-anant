@@ -60,7 +60,7 @@ while abs(fa)> e
     step = step + 1;
 end
 
-fprintf('max eqigen val from quest is %f\n', a);
+fprintf('max eigen val from quest is %f\n', a);
 rho = a + sigma;
 quest =[ det(rho*eye(3)-S);
         adjoint(rho*eye(3)-S)*Z
