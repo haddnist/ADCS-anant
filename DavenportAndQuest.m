@@ -28,7 +28,6 @@ kappa = trace(adjoint(S));
 
 syms x;
 
-% Input Section
 y = (x^2 - sigma^2 + kappa)*(x^2 - sigma^2 - (norm(Z))^2) - (x-sigma)*(Z'*S*Z+det(S))-Z'*S*S*Z;
 a = w1+w2;
 e = 0.0001;
